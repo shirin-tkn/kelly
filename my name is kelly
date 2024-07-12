@@ -16,3 +16,13 @@ if __name__ == '__main__':
 
 (* ------------------------------------------------------------------------------------------------------------------------------ *)
 
+def m(list1,list2):
+
+    full_names = list(map(''.join, zip(list1, list2)))
+    print(full_names)
+
+
+if __name__ == '__main__':
+    list1=['m','na','i','ke']
+    list2=['y','me','s','lly']
+    m(list1,list2)
